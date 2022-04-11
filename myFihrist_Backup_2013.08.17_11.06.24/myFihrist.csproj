@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2CBF34CB-9832-44A7-8728-B313F589A861}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>myFihrist</RootNamespace>
+    <AssemblyName>myFihrist</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.2.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Apps-Address-Book.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>643A8A5249124094519C30152D7D380AADE380A1</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>myFihrist_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.WinControls, Version=2012.1.301.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.GridView, Version=2012.1.301.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.RadChart, Version=2012.1.301.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.RadDock, Version=2012.1.301.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.RadMarkupEditor, Version=2012.1.301.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.RichTextBox, Version=2012.1.301.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Scheduler, Version=2012.1.301.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.SpellChecker, Version=2012.1.301.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Desert, Version=2012.1.301.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.UI, Version=2012.1.301.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="TelerikCommon, Version=2012.1.301.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="TelerikData, Version=2012.1.301.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ProgramAyar.cs" />
+    <Compile Include="ProgramAyar.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>ProgramAyar.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\ayarlar.cs" />
+    <Compile Include="Formlar\ayarlar.Designer.cs">
+      <DependentUpon>ayarlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\hakkimda.cs" />
+    <Compile Include="Formlar\hakkimda.Designer.cs">
+      <DependentUpon>hakkimda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\kayitBilgileri.cs" />
+    <Compile Include="Formlar\kayitBilgileri.Designer.cs">
+      <DependentUpon>kayitBilgileri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\KayitGuncelle.cs" />
+    <Compile Include="Formlar\KayitGuncelle.Designer.cs">
+      <DependentUpon>KayitGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\kayitGuncelleForm.cs" />
+    <Compile Include="Formlar\kayitGuncelleForm.Designer.cs">
+      <DependentUpon>kayitGuncelleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\KayitSil.cs" />
+    <Compile Include="Formlar\KayitSil.Designer.cs">
+      <DependentUpon>KayitSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\TumKayitlar.cs" />
+    <Compile Include="Formlar\TumKayitlar.Designer.cs">
+      <DependentUpon>TumKayitlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\vCard.cs" />
+    <Compile Include="Formlar\vCard.Designer.cs">
+      <DependentUpon>vCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\vCardOlustur.cs" />
+    <Compile Include="Formlar\vCardOlustur.Designer.cs">
+      <DependentUpon>vCardOlustur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\Yedekle.cs" />
+    <Compile Include="Formlar\Yedekle.Designer.cs">
+      <DependentUpon>Yedekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\yeniKayit.cs" />
+    <Compile Include="Formlar\yeniKayit.Designer.cs">
+      <DependentUpon>yeniKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kayitResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kayitResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs" />
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Siniflar\GelenVeriler.cs" />
+    <Compile Include="Siniflar\VeriKaydetme.cs" />
+    <EmbeddedResource Include="Formlar\ayarlar.resx">
+      <DependentUpon>ayarlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\hakkimda.resx">
+      <DependentUpon>hakkimda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\kayitBilgileri.resx">
+      <DependentUpon>kayitBilgileri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\KayitGuncelle.resx">
+      <DependentUpon>KayitGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\kayitGuncelleForm.resx">
+      <DependentUpon>kayitGuncelleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\KayitSil.resx">
+      <DependentUpon>KayitSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\TumKayitlar.resx">
+      <DependentUpon>TumKayitlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\vCard.resx">
+      <DependentUpon>vCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\vCardOlustur.resx">
+      <DependentUpon>vCardOlustur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\Yedekle.resx">
+      <DependentUpon>Yedekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\yeniKayit.resx">
+      <DependentUpon>yeniKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kayitResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>kayitResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="ProgramAyar.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>ProgramAyar.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yenikayit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\headerback.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kayitlar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kayitguncelleme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kayitlar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yenikayit1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kayitSilme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross_482222222.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\floppy_disk_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\karekod.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\karekod1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross_4822222221.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kayitBilgileri.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vcardKayit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross_4822222222.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Apps-Address-Book.ico" />
+    <Content Include="kayitlar.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\bs.png" />
+    <None Include="Resources\kayitlar.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

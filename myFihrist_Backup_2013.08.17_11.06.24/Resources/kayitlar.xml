@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<kayitlar>
+  <kayit id ="1">
+    <ad></ad>
+    <soyad></soyad>
+    <dogumtarihi></dogumtarihi>
+    <kangrubu></kangrubu>
+    <notlar></notlar>
+    <ceptel></ceptel>
+    <evtel></evtel>
+    <istel></istel>
+    <faks></faks>
+    <sirket></sirket>
+    <isunvani></isunvani>
+    <evadresi></evadresi>
+    <isadresi></isadresi>
+    <eposta></eposta>
+    <webadresi></webadresi>
+    <facebook></facebook>
+    <twitter></twitter>
+  </kayit>
+  
+  
+</kayitlar>
